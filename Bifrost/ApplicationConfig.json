@@ -1,0 +1,57 @@
+{
+  "logDirectory": "",
+  "backupDirectory": "",
+  "backupLengthDays": 7,
+  "TEST": "Test1",
+  "services": [
+    {
+      "serviceType": "local",
+      "serviceName": "developer",
+      "hostname": "",
+      "scp_username": "",
+      "scp_password": "",
+      "scp_RemoteRoot": "",
+      "scp_hostkey": "",
+      "localFolder": "",
+      "filetypes": [
+        ".txt",
+        ".doc"
+      ],
+      "developerInstance": true,
+      "rename": true,
+      "filenameAddition": "DEVELOPER"
+    },
+    {
+      "serviceType": "local",
+      "serviceName": "vfs",
+      "hostname": "",
+      "scp_username": "",
+      "scp_password": "",
+      "scp_RemoteRoot": "",
+      "scp_hostkey": "",
+      "localFolder": "",
+      "filetypes": [
+        ".txt",
+        ".doc"
+      ],
+      "developerInstance": true,
+      "rename": true,
+      "filenameAddition": ""
+    },
+    {
+      "ServiceType": "",
+      "serviceName": "",
+      "hostname": "",
+      "scp_username": "",
+      "scp_password": "",
+      "scp_RemoteRoot": "//",
+      "scp_hostkey": "",
+      "localFolder": "",
+      "filetypes": [
+      ],
+      "developerInstance": true,
+      "rename": true,
+      "filenameAddition": ""
+    }
+  ]
+}

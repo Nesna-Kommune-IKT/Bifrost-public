@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bifrost", "Bifrost\Bifrost.csproj", "{D395B067-B61C-449C-8AFA-CCC6933F40CC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupFileMover", "SetupFileMover\SetupFileMover.vdproj", "{E43CF41A-FE89-485B-8EEE-E64B8D8A1D81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D395B067-B61C-449C-8AFA-CCC6933F40CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D395B067-B61C-449C-8AFA-CCC6933F40CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D395B067-B61C-449C-8AFA-CCC6933F40CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D395B067-B61C-449C-8AFA-CCC6933F40CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43CF41A-FE89-485B-8EEE-E64B8D8A1D81}.Debug|Any CPU.ActiveCfg = Debug
+		{E43CF41A-FE89-485B-8EEE-E64B8D8A1D81}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06775AE7-1240-44A3-99FF-1F195E185B0F}
+	EndGlobalSection
+EndGlobal
